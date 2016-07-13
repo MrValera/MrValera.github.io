@@ -1,0 +1,248 @@
+<!DOCTYPE Html>
+<htlm>
+  <head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="C:\Users\MrDante\Desktop\Html\Task4(2).css">
+	</head>
+	<body>
+	<style>
+	* {
+  margin: 0;
+	padding: 0;
+}
+body {
+	margin: 0;
+  background-color: #0f89ab;
+  background-image: url(http://s0.uploads.ru/t/Erqhg.jpg);
+  background-repeat: repeat-x;
+  background-size: 800px;
+  background-position-y: 70px;
+}
+.box {
+	box-shadow: 0 0 10px;
+	position: relative;
+	bottom: -10px;
+	left: 280px;
+	width: 800px;
+	height: 771px;
+	background-color: white;
+	padding: 0;
+  font-family: sans-serif;
+}
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+	top: -5px;
+    border: 2px solid #2E2E2E;
+    box-shadow: 0 0 20px #2E2E2E;
+}
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menu > li {
+    float: left;
+    position: relative;
+}
+ul.menu > li > a {
+    display: block;
+    padding: 0;
+    width: 90px;
+    color: white;
+    background-color: #2E2E2E;
+    text-decoration: none;
+}
+ul.menu > li > a:hover {
+  background-color: #2E2E2E;
+	box-shadow: 0 0 10px #2E2E2E;
+	padding: 0;
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 110px;
+    top: 22px;
+    left: 0;
+    background-color: #2E2E2E;  /*цвет заднего фона выпадающего окна*/	
+    border: 1px solid #2E2E2E; /*цвет рамки выпадающего окна*/
+}
+ul.submenu > li {
+    display: block;
+    padding: 5px;
+    border: 1px solid #2E2E2E;
+    
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+}
+ul.submenu > li > a:hover {
+}
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+.bar-left {
+	position: relative;
+	bottom: 7px;
+	display: inline-block;
+	width: 180px;
+	font-size: 13px;
+	float: left;
+}
+.bar-right {
+	position: relative;
+	bottom: 7px;
+	display: inline-block;
+	font-size: 13px;
+	width: 180px;
+	float: right;
+}
+.contacts {
+	position: absolute;
+	top: 15px;
+	left: 650px;
+	font-size: 12px;
+	color: #808AF9;
+}
+.countries {
+	position: absolute;
+	top: 155px;
+	left: 455px;
+  word-spacing: 17px;
+	font-size: 11px;
+	color: #808AF9;
+}
+#flags {
+  position: relative;
+  left: 450px;
+  bottom: 30px;
+  }
+
+
+header {
+	color: #808AF9;
+	font-size: 14px;
+	position: absolute;
+	top: 90px;
+	left: 60px;
+}
+
+li {
+	position: relative;
+	color: white;
+	padding: 5px;
+	font-size: 10px;
+	width: 100px;
+	display: inline-block;
+}
+aside {
+	padding: 5px 10px;
+	height: 348px;
+	background-color: #F2F2F2;
+	border: 1px solid black;
+} 
+footer {
+	color: white;
+	position: absolute;
+	top: 770px;
+	left: 300px;
+  text-transform: lowercase;
+  font-size: 10px;
+}
+
+	</style>
+	<div class="box">
+		<header>
+			<span> <b>Путишествие по Азии</b> </span>
+		</header>
+			<img style="width 800px; height: 140px" src="http://s6.uploads.ru/t/JhMAr.jpg">
+			<img id="flags" src="http://s2.uploads.ru/t/dhA0a.jpg">
+			<img style="width: 800px; height: 200px;" src="http://ejourney.ru/files/img/2014/12/pogoda_v_taylande_v_marte.jpg">
+		<div class="contacts">
+			<p><b>Наши контакты:</b></p>
+			<p>+9-098-765-4321</p>
+			<p>+9-0123-456-890</p>
+			<p>info@asia-holidays.com</p>
+		</div>
+		<div class="countries">
+		<span style="text-decoration: underline;">Индия</span>  
+		<span style="margin-left: 5px; text-decoration: underline;">Непал</span> 
+		<span style="margin-left: 7px; text-decoration: underline;">Тибет</span> 
+		<span style="margin-left: 5px; text-decoration: underline;">Бутан</span> 
+		<span style="margin-left: -5px; text-decoration: underline;">Шри-Ланка</span>  
+		<span style="margin-left: -10px; text-decoration: underline;">Мальдивы</span>
+		</div>
+		<nav>
+		<ul class="menu" style="background-color: #2E2E2E; text-align: left;">
+			<li style="margin-left: 50px;">Главная</li>
+			<li style="margin-left: 40px;"> <a href="#">Путишествие   &#9660;</a>
+				<ul class="submenu">
+					<li><a href="#">Путишествие1</a></li>
+					<li><a href="#">Путишествие2</a></li>
+					<li><a href="#">Путишествие3</a></li>
+					<li><a href="#">Путишествие4</a></li>
+					<li><a href="#">Путишествие5</a></li>
+				</ul>
+			</li>
+			<li style="margin-left: 10px;"><a href="#">Услуги   &#9660;</a>
+				<ul class="submenu">
+					<li><a href="#">Silver</a></li>
+					<li><a href="#">Gold</a></li>
+					<li><a href="#">Gold V.I.P</a></li>
+				</ul>
+			</li>
+			<li style="margin-left: -15px;"><a href="#">Партнерам   &#9660;</a>
+				<ul class="submenu">
+					<li><a href="#">Партнерам1</a></li>
+					<li><a href="#">Партнерам2</a></li>
+					<li><a href="#">Партнерам3</a></li>
+				</ul>
+			</li>
+			<li style="margin-left: -15px;">Отзывы клиентов</li>
+			<li style="margin-left: -5px;">О нас</li>
+			<li style="margin-left: -40px;">Контакты</li>
+		</nav>
+	<div>
+		<aside class="bar-left">
+			<span style="margin: 30px; font-size:20px;"><b>Информация</b></span>
+			<div style="padding:5px 10px;">
+				<span>lorem ipsum dolor sit amet</span>
+				<span>lorem ipsum dolor sit amet</span>
+				<span>lorem ipsum dolor sit amet</span>
+				<span>lorem ipsum dolor sit amet</span>
+				<span>lorem ipsum dolor sit amet</span>
+				<span>lorem ipsum dolor sit amet</span>
+			</div>
+		</aside>
+		</div>
+		<aside class="bar-right">
+			<span style="margin-left: 55px; font-size:20px;"><b>Новости</b></span>
+			<div style="padding:5px 10px;">
+				<span>lorem ipsum dolor sit amet</span>
+				<span>lorem ipsum dolor sit amet</span>
+				<span>lorem ipsum dolor sit amet</span>
+				<span>lorem ipsum dolor sit amet</span>
+				<span>lorem ipsum dolor sit amet</span>
+				<span>lorem ipsum dolor sit amet</span>
+				<span>lorem ipsum dolor sit amet</span>
+				<span>lorem ipsum dolor sit amet</span>
+				<span>lorem ipsum dolor sit amet</span>
+				<span>lorem ipsum dolor sit amet</span>
+				<span>lorem ipsum dolor sit amet</span>
+				<span>lorem ipsum dolor sit amet</span>
+				<span>lorem ipsum dolor sit amet</span>
+				<span>lorem ipsum dolor sit amet</span>			
+			</div>
+		</aside> 
+		<footer style="clear: both;">
+		Copyright(C) asia-holidays.com. 2010
+		</footer>
+	</div>
+	</body>
