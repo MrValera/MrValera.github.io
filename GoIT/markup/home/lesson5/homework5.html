@@ -7,135 +7,209 @@
 	<body>
 	<style>
 	@font-face {
-	font-family: Helvetica Neue;
+  font-family: Helvetica Neue;
 	src: local("Helvetiva Neue")
 		url(path-to/Helvetiva Neue.otf)
 }
+
 * {
     margin: 0;
     padding: 0;
-   }
+}
+
 body {
 	width: auto;
 	margin: auto;
 	background-image: url(http://www.wallpapersxl.com/wallpapers/1366x768/ciclismo/505743/ciclismo-ciclistas-por-carretera-pendiente-altitud-del-mundo-505743.jpg);
 	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#title2 {
+    padding: 5px;
+    background-color: #4eabda;
+    color: white;
+}
+
+#Submit {
+    padding: 10px 10px;
+    margin: 10px;
+    color: white;
+    background-color: #469fd4;
+    border: 1px solid #469fd4;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#ch-box {
+    padding: 5px;
+}
+
+#check {
+    color: #cccccc;
+    padding: 5px;
+}
+
+#top {
+    color: #999999;
+}
+
+#image {
+    margin: 5px;
 }
 
 .box {
-	position: absolute;
+	width: 100%;
 	margin: auto;
-	font-family: Tahoma;
+	font-family: Tahoma, sans-sarif;
+
 }
+
 .top {
 	text-align: center;
-	position: absolute;
-	top: 77px;
-	left: 450px;
 	background: rgba(60, 60, 50, 0.8);
 	padding: 10px 20px;
+    margin: 0 0 5px 0;
 	width: 360px;
 	border: 1px solid black;
 }
+
 .registr {
 	display: block;
 	text-align: center;
-	position: absolute;
-	top: 130px;
-	left: 450px;
-	background: rgba(60, 60, 50, 0.8);
-	padding: 10px 20px;
 	width: 360px;
+	background: rgba(60, 60, 50, 0.8);
+	padding: 15px 20px;
 	border: 1px solid black;
 }
+
 .menu {
-	position: absolute;
-	left: 0px;
-	top: 0px;
 	width: auto;
 	display: inline-block;
 }
+
 .Name1 {
+    margin:-100px 0 0 -150px;
 	padding: 10px;
 	margin: 5px;
 	width: 250px;
 	border: 1px solid #0f0f0f;
 	background: rgba(15, 15, 15, 0.8);
 }
+
 .Name1:hover {
 	color: white;
 	background-color: #1b5288;
 	box-shadow: 0 0 20px #699bcd;
 	border: 1px solid #699bcd;
 }
+
+.Name1:focus {
+	color: white;
+	background-color: #1b5288;
+	box-shadow: 0 0 20px #699bcd;
+	border: 1px solid #699bcd;
+}
+
 a:hover {
 	color: white;
 	background-color: #4eabda;
 }
+
 .FB {
-	margin-left: 42px;
-	padding: 10px 10px;
-	width: 250px;
+	margin-left: 57px;
+	padding: 5px 5px;
+	width: 230px;
 	color: white;
 	border: 1px solid #324b84;
 	border-radius: 5px;
-	background-color: #324b84;
+	background: linear-gradient(#3d5698,#2b4276 75%);
 	cursor: pointer;
 }
+
+.FB #small-f {
+	font-weight: bolder;
+	Font-size: 18px;
+	text-align: left;
+}
+
+.FB #slash {
+	border-right: 1px solid #323b84;
+	padding: 6px;
+	margin-left: -10px;
+}
+
+
 input[type="text"] {
 	color: #cccccc;
 }
-#title2 {
-	padding: 5px;
-	background-color: #4eabda;
-	color: white;
+
+
+nav .menu {
+	background-color: #085596;
+	width: 100%;
+	text-align: right;
 }
-#Submit {
-	padding: 10px 10px;
-	margin: 10px;
-	color: white;
-	background-color: #469fd4;
-	border: 1px solid #469fd4;
-	border-radius: 5px;
-	font-size: 20px;
-}
-#check {
-	color: #cccccc;
-	padding: 5px;
-}
-#top {
-	color: #999999;
-}
-#image {
-	margin: 5px;
-}
+
 h1 {
 	color: #d8d8d7;
 }
+
 a {
 	padding: 5px;
 	margin: 10px;
 }
+
+ul li {
+	padding: 5px;
+}
+
+
 li {
-	float: left;
-	text-align: right;
 	color: #5cafe7;
 	padding: 5px 10px;
-	width: 1346px;
 	display: inline-block;
 	font-size: 14px;
 	cursor: pointer;
 	/*margin-right: 30px;*/
 }
+
+article {
+    width:300px;
+    height:200px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin:-245px 0 0 -170px;
+}
+
+h2 {
+	Font-size: 18px;
+	padding: 10px;
+}
+
+h2:before {
+	content: "";
+    position: absolute;
+    width: 110px;
+	top: 123px;
+	left: 65px;
+    border-top: 1px solid #999999;
+}
+
+h2:after {
+	content: "";
+    position: absolute;
+    width: 110px;
+	top: 123px;
+    margin-left: 10px;
+    border-top: 1px solid #999999;
+}
+
 input {
 	box-shadow: 0 0 20px #0f0f0f;
+	padding: 50px;
 }
-hr {
-	border: 1px solid #999999;
-	width: 120px;
-	display: inline-block;
-	margin: 3px 3px;
-}
+
 	</style>
 	<div class="box">
 		<nav>
