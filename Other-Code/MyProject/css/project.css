@@ -1,0 +1,71 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+.shell-header ul li {
+  display: inline-block;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.shell-header ul li a {
+  display: block;
+  overflow: hidden;
+}
+
+
+.shell-header ul li:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.shop-cart img:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.user:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.menu-960px:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.button {
+  cursor: pointer;
+}
+
+form button {
+  cursor: pointer;
+}
+
+.imageAnimation:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.01);
+  opacity: 1;
+  overflow: hidden;
+}
+
+.directory-column #ft_Title:hover {
+  text-decoration: none;
+}
+
+.directory-column #hoverList li a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.Copyright a:hover {
+  text-decoration: underline;
+}
