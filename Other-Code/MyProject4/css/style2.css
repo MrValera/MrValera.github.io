@@ -42,25 +42,25 @@ header label:hover {
 
 .slide-one {
   overflow: hidden;
-  background: url(../image/mountain.jpg) no-repeat center center;
+  background: url(http://www.subwaybaby.dj/wp-content/uploads/2013/02/Subway-Baby-Tour-De-Fjord-Part-18.jpg) no-repeat center center;
   background-size: cover;
 }
 
 .slide-two {
   overflow: hidden;
-	background-image: url(../image/baikal.jpg);
+	background-image: url(https://i.ytimg.com/vi/ShLcFNjRGXk/maxresdefault.jpg);
   background-size: cover;
 }
 
 .slide-three {
   overflow: hidden;
-	background-image: url(../image/Lake.jpg);
+	background-image: url(http://img15.nnm.me/3/d/b/0/d/10d4c968239c348252ff63165cf.jpg);
   background-size: cover;
 }
 
 .slide-four {
   overflow: hidden;
-	background-image: url(../image/sahara.jpg);
+	background-image: url(http://pic.photo-aks.com/photo/nature/desert/large/beautiful-desert-landscape.jpg);
   background-size: cover;
 }
 
