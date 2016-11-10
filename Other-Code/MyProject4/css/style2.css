@@ -18,12 +18,6 @@ body {
   font-family: 'Ubuntu', 'Arial', sans-serif;
 }
 
-.sect_2 {
-  width: 100%;
-  height: 100vh;
-  background: url(../image/bg_sect_2.jpg) repeat center center;
-}
-
 a {
   color: #EFEBDC;
   text-decoration: none;
@@ -48,25 +42,25 @@ header label:hover {
 
 .slide-one {
   overflow: hidden;
-  background: url(image/mountain.jpg) no-repeat center center;
+  background: url(../image/mountain.jpg) no-repeat center center;
   background-size: cover;
 }
 
 .slide-two {
   overflow: hidden;
-	background-image: url(image/baikal.jpg);
+	background-image: url(../image/baikal.jpg);
   background-size: cover;
 }
 
 .slide-three {
   overflow: hidden;
-	background-image: url(image/Lake.jpg);
+	background-image: url(../image/Lake.jpg);
   background-size: cover;
 }
 
 .slide-four {
   overflow: hidden;
-	background-image: url(image/sahara.jpg);
+	background-image: url(../image/sahara.jpg);
   background-size: cover;
 }
 
