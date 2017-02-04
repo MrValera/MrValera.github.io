@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body {
+  background: #333;
+}
+
+#gameName {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: 'Ubuntu', 'Arial', sans-serif;
+  color: #a7dd3c;
+  text-shadow: -1px -1px 0 hsl(80, 70%, 35%),
+               -2px -2px 1px hsl(80, 70%, 35%);
+  text-align: center;
+}
+
+canvas {
+  margin: 20px auto 0;
+  display: block;
+}
+
+#player, #enemy, #stats {
+  display: block;
+  margin: -500px auto 0;
+}
