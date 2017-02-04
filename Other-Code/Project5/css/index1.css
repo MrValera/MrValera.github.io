@@ -1,0 +1,278 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
+
+html, body, div, .header-left, .header-right, h1, h2, h3{
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.work--area {
+  background: #fff;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-left, .header-right {
+  width: auto;
+}
+
+.header-right div {
+  float: left;
+}
+
+.wrapper-940 {
+  margin: 0 auto;
+}
+
+.step1 {
+  background: url('../image/step_1.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.step2 {
+  background: url('../image/step_2.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.step3 {
+  background: url('../image/step_3.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+
+.partners {
+  position: relative;
+  margin-top: 13px;
+}
+
+.partner-item__text {
+  color: #666;
+  display: inline-block;
+  line-height: 16px;
+}
+
+.partner-item__icon-bg {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: 4px solid #fff;
+  box-sizing: border-box;
+  padding: 7px 7px 7px 8px;
+  position: absolute;
+  -webkit-transition: all .4s ease-in;
+  -moz-transition: all .4s ease-in;
+  -ms-transition: all .4 ease-in;
+  transition: all .4s ease-in
+}
+
+.partners:hover .partners-item__icon-red {
+  border: 4px solid #ff4e50;
+  -webkit-transition: all .4s ease-in;
+  -moz-transition: all .4s ease-in;
+  -ms-transition: all .4 ease-in;
+  transition: all .4s ease-in
+}
+
+.partners:hover .partners-item__icon-yellow {
+  border: 4px solid #ffa507;
+  -webkit-transition: all .4s ease-in;
+  -moz-transition: all .4s ease-in;
+  -ms-transition: all .4 ease-in;
+  transition: all .4s ease-in
+}
+
+.partners:hover .partners-item__icon-blue {
+  border: 4px solid #4e73db;
+  -webkit-transition: all .4s ease-in;
+  -moz-transition: all .4s ease-in;
+  -ms-transition: all .4 ease-in;
+  transition: all .4s ease-in
+}
+
+.partners:hover .partners-item__icon-green {
+  border: 4px solid #1cd7ad;
+  -webkit-transition: all .4s ease-in;
+  -moz-transition: all .4s ease-in;
+  -ms-transition: all .4 ease-in;
+  transition: all .4s ease-in
+}
+
+.partners-item__icon-red {
+  background-color: #ff4e50;
+}
+
+.partners-item__icon-yellow {
+  background-color: #ffa507;
+}
+
+.partners-item__icon-green {
+  background-color: #1cd7ad;
+}
+
+.partners-item__icon-blue {
+  background-color: #4e73db;
+}
+
+.partners .tv::before, .partners .bulb::before, .partners .plane::before, .partners .cup::before {
+  content: '';
+  display: block;
+}
+
+.partners .tv::before {
+  width: 16px;
+  height: 16px;
+  background: url('../image/sprite.png') no-repeat;
+}
+
+.partners .bulb::before {
+  width: 16px;
+  height: 16px;
+  background: url('../image/sprite.png') no-repeat 1px -32px;
+}
+
+.partners .plane::before {
+  width: 16px;
+  height: 16px;
+  background: url('../image/sprite.png') no-repeat -3px -49px;
+}
+
+.partners .cup::before {
+  width: 16px;
+  height: 16px;
+  background: url('../image/sprite.png') no-repeat 0 -17px;
+}
+
+.ideas {
+  padding-top: 15px;
+  text-align: center;
+}
+
+.ideas-title {
+  padding: 0 20px 14px;
+  color: #000;
+  font: 700 22px/26px Montserrat, sans-serif;
+}
+
+.grid {
+  position: relative;
+}
+
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.grid-item {
+  height: 310px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font: 700 22px Montserrat, sans-serif;
+}
+
+.search-text {
+  margin: 12px 0 25px;
+  color: #333;
+  font: 18px Roboto, sans-serif;
+}
+
+.search__input {
+  width: 240px;
+  height: 40px;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 1px #eee;
+  border: 1px solid #ccc;
+  padding: 0 15px;
+  box-sizing: border-box;
+  margin-right: 10px;
+}
+
+.search {
+  width: 160px;
+  margin: 0;
+}
+
+.footer {
+  margin-top: 40px;
+  padding: 16px 0;
+  border-top: 4px solid #ff4e50;
+}
+
+.column__siteLogo {
+  color: #ff4e50;
+  font: 700 16px Montserrat, sans-serif;
+  text-decoration: none;
+}
+
+.column__title {
+  color: #000;
+  font: 700 14px Montserrat, sans-serif;
+  text-align: center;
+}
+
+.column-link {
+  padding-top: 2px;
+  width: 220px;
+  margin: 0 auto;
+}
+
+.column-copyright {
+  width: 130px;
+  position: relative;
+}
+
+.column__text {
+  color: #ccc;
+  font: 700 11px Montserrat, sans-serif;
+  text-transform: uppercase;
+}
+
+.column__siteLogo:hover,
+.column__link:hover {
+  text-decoration: underline;
+}
+
+#sport {
+  background: url('../image/sport.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+#yoga {
+  background: url('../image/yoga.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+#culture {
+  background: url('../image/culture.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+#extreme {
+  background: url('../image/mount.jpg') no-repeat -150px center;
+  background-size: cover;
+}
+
+#relax {
+  background: url('../image/relax.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+#game {
+  background: url('../image/poker.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+#travel {
+  background: url('../image/travel.jpg') no-repeat center center;
+  background-size: cover;
+}
