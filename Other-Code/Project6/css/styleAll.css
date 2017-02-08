@@ -1,0 +1,336 @@
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+header {
+  width: 100%;
+  margin-top: 0;
+  background: #fff;
+  text-align: center;
+  overflow: auto;
+}
+
+.header--right nav {
+  padding: 3px;
+}
+
+.pos {
+  padding-top: 18px;
+  padding-bottom: 10px;
+}
+
+.header--bottom {
+  padding-bottom: 30px;
+}
+
+.wrapper {
+  width: 300px;
+  margin: 0 auto;
+}
+
+#search {
+  padding: 0;
+  top: 5px;
+}
+
+.site__networks > ul {
+  padding: 0;
+  margin-top: 15px;
+}
+
+.networks {
+  width: 44px;
+  height: 44px;
+  display: inline-block;
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -ms-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+
+
+.big--footer {
+  width: 100%;
+  overflow: auto;
+  background: #fff;
+  text-align: center;
+}
+
+.big--footer__top {
+  padding-top: 20px;
+  min-height: 350px;
+  padding-bottom: 50px;
+}
+
+.column {
+  width: 266px;
+  margin: 0 12.5px;
+  float: left;
+}
+
+.column .site__title {
+  margin-bottom: 30px;
+}
+
+.footer--picture {
+  float: left;
+}
+
+.footer--picture__style {
+  width: 54px;
+  height: 46px;
+  border: 4px solid #ecf0f1;
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -ms-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+
+h4 {
+  margin: 15px 0;
+}
+
+.footer--right ul {
+  padding: 0;
+  margin: 15px 0;
+}
+
+.footer--right ul li {
+  display: inline;
+  margin: 0 5px;
+}
+
+
+}
+
+@media (min-width: 640px) and (max-width: 1199px) {
+
+header {
+  width: 100%;
+  margin-top: 6px;
+  background: #fff;
+  text-align: left;
+  overflow: auto;
+}
+
+article {
+  overflow: auto;
+}
+
+.header--bottom {
+  height: 100px;
+  padding-bottom: 28px;
+}
+
+#mobile--margin {
+  margin-top: 0;
+}
+
+#search {
+  top: 2px;
+}
+
+.header--left {
+  float: left;
+}
+
+.header--bottom {
+  padding-bottom: 30px;
+}
+
+.header--bottom .header--left {
+  width: 350px;
+}
+
+.header--right {
+  float: right;
+}
+
+.column {
+  width: 266px;
+  height: 349px;
+  margin: 0 12.5px;
+  float: left;
+}
+
+.big--footer {
+  overflow: auto;
+}
+
+.big--footer__top {
+  min-height: 700px;
+  padding-bottom: 0;
+}
+
+.footer--right {
+  float: right;
+}
+
+.footer--left {
+  float: left;
+}
+
+.big--footer__bottom {
+  min-height: 48px;
+  border-top: 2px solid #ecf0f1;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+header {
+  overflow: auto;
+  margin-top: 6px;
+  background: #fff;
+  text-align: left;
+}
+
+.site__networks > ul {
+  padding: 0;
+  margin-top: 15px;
+}
+
+.big--footer {
+  overflow: auto;
+  background: #fff;
+  text-align: center;
+}
+
+.big--footer__top {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.column {
+  width: 266px;
+  margin: 0 12.5px;
+  float: left;
+}
+
+.column .site__title {
+  margin-bottom: 30px;
+}
+
+.footer--picture {
+  float: left;
+}
+
+.footer--picture__style {
+  width: 54px;
+  height: 46px;
+  border: 4px solid #ecf0f1;
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -ms-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+
+h4 {
+  margin: 15px 0;
+}
+
+.footer--right ul {
+  padding: 0;
+  margin: 15px 0;
+}
+
+.footer--right ul li {
+  display: inline;
+  margin: 0 5px;
+}
+
+}
+
+@media (min-width: 1200px) {
+
+header {
+  width: 100%;
+  margin-top: 6px;
+  background: #fff;
+  overflow: auto;
+}
+
+.header--right nav {
+  padding: 10px;
+}
+
+.header--left {
+  float: left;
+}
+
+.header--right {
+  float: right;
+}
+
+
+.wrapper {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+
+.big--footer {
+  width: 100%;
+  background: #fff;
+  overflow: auto;
+}
+
+.big--footer__top {
+  padding-top: 65px;
+  padding-bottom: 50px;
+}
+
+.column {
+  width: 266px;
+  overflow: auto;
+  margin: 0 12.5px;
+  float: left;
+}
+
+.column .site__title {
+  margin-bottom: 30px;
+}
+
+.footer--picture {
+  float: left;
+}
+
+.footer--picture__style {
+  width: 54px;
+  height: 46px;
+  border: 4px solid #ecf0f1;
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -ms-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+
+.big--footer__bottom {
+  width: 100%;
+  overflow: auto;
+  border-top: 2px solid #ecf0f1;
+}
+
+.footer--left {
+  float: left;
+}
+
+.footer--right ul {
+  padding: 0;
+  margin: 30px 0;
+}
+
+.footer--right ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+h4 {
+  margin: 30px 0;
+}
+
+.footer--right {
+  float: right;
+}
+
+}
