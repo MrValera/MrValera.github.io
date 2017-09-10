@@ -1,0 +1,29 @@
+
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Planet', 'Population (in millions)'],
+          ['Mars - 11 200 862',     11.2],
+          ['Jupiter - 1 626 921',  1.6],
+          ['Venus - 2 800 321',  2.8],
+        ]);
+
+        var options = {
+          title: 'POPULATION IN THE COLONIES',
+          is3D: true,
+          backgroundColor: 'transparent',
+          titleTextStyle: {color: '#fff'},
+          legend: { textStyle: {color: '#fff', fontSize: 16}}
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+        chart.draw(data, options);
+      }
+    </script>
+
+    <div id="piechart_3d"></div>
+
+  </div>
+</div>
