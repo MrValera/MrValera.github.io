@@ -69,7 +69,7 @@ body, .onepage-wrapper, html {
 }
 
 .disabled-onepage-scroll, .disabled-onepage-scroll .wrapper {
-  overflow: auto;
+  overflow-y: auto;
 }
 
 .disabled-onepage-scroll .onepage-wrapper .section {
