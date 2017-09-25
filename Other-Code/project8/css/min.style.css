@@ -1,0 +1,691 @@
+/*==========================================================================
+===================== 320px - 479px ========================================
+==========================================================================*/
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+
+.header--nav__list li {
+  padding: 15px 10px;
+  display: inline-block;
+}
+
+.header--echo {
+  width: 100%;
+  height: 100%;
+  background: url('../image/headerEcho.jpg') no-repeat;
+  background-size: cover;
+}
+
+.header--support {
+  overflow: hidden;
+  position: absolute;
+  top: 90%;
+  left: 29%;
+}
+
+.header--echo__box {
+  position: relative;
+  top: 50px;
+  left: 20px;
+}
+
+.echo--about__box {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  left: 20px;
+  top: 30%;
+  width: auto;
+  color: #fff;
+}
+
+.echo--about__text {
+  max-width: 680px;
+  width: 90%;
+  letter-spacing: 1px;
+  line-height: 24px;
+}
+
+.column--box {
+  width: 100%;
+  height: 300px;
+  margin: 0;
+  opacity: .2;
+  cursor: pointer;
+  overflow: hidden;
+  -moz-transition: all .1s ease-in;
+  -webkit-transition: all .1s ease-in;
+  transition: all .1s ease-in;
+}
+
+.footer--column {
+  width: 100%;
+  text-align: center;
+}
+
+.footer--content__box-line {
+  display: block;
+  width: 100%;
+  padding: 5px 0;
+  overflow: hidden;
+  color: #888;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.box--line__left {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.box--line__right {
+  text-align: center;
+  padding-top: 20px;
+}
+
+}
+
+/*==========================================================================
+===================== 480px - 767px ========================================
+==========================================================================*/
+
+@media screen and (min-width:480px) and (max-width:599px) {
+
+.header--nav__list li {
+  padding: 15px 20px;
+  margin: 0 2%;
+  display: inline-block;
+}
+
+.header--echo {
+  width: 100%;
+  height: 100%;
+  background: url('../image/headerEcho.jpg') no-repeat;
+  background-size: cover;
+}
+
+.header--support {
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 90%;
+  left: 20px;
+}
+
+.header--echo__box {
+  position: relative;
+  top: 50px;
+  left: 20px;
+}
+
+.echo--about__box {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  left: 20px;
+  top: 50%;
+  width: auto;
+  color: #fff;
+}
+
+.echo--about__text {
+  max-width: 680px;
+  width: 90%;
+  letter-spacing: 1px;
+  line-height: 24px;
+}
+
+.column--box {
+  width: 100%;
+  height: 300px;
+  margin: 0;
+  opacity: .2;
+  cursor: pointer;
+  overflow: hidden;
+  -moz-transition: all .1s ease-in;
+  -webkit-transition: all .1s ease-in;
+  transition: all .1s ease-in;
+}
+
+.footer--column {
+  width: 100%;
+  text-align: center;
+}
+
+.footer--content__box-line {
+  display: block;
+  width: 100%;
+  padding: 5px 0;
+  overflow: hidden;
+  color: #888;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.box--line__left {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.box--line__right {
+  text-align: center;
+  padding-top: 20px;
+}
+
+}
+
+/*==========================================================================
+===================== 600px - 767px ========================================
+==========================================================================*/
+
+@media screen and (min-width: 600px) and (max-width: 767px) {
+
+.header--nav__list li {
+  padding: 15px 20px;
+  margin: 0 2%;
+  display: inline-block;
+}
+
+.header--echo {
+  width: 100%;
+  height: 100%;
+  background: url('../image/headerEcho.jpg') no-repeat;
+  background-size: cover;
+}
+
+.header--support {
+  overflow: hidden;
+  position: absolute;
+  top: 90%;
+  left: 38%;
+}
+
+.header--echo__box {
+  position: relative;
+  top: 50px;
+  left: 20px;
+}
+
+.echo--about__box {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  left: 20px;
+  top: 50%;
+  width: auto;
+  color: #fff;
+}
+
+.echo--about__text {
+  max-width: 680px;
+  width: 90%;
+  letter-spacing: 1px;
+  line-height: 24px;
+}
+
+.column--box {
+  width: 33.3%;
+  float: left;
+  height: 300px;
+  margin: 0;
+  opacity: .2;
+  cursor: pointer;
+  overflow: hidden;
+  -moz-transition: all .1s ease-in;
+  -webkit-transition: all .1s ease-in;
+  transition: all .1s ease-in;
+}
+
+.footer--column {
+  width: 45%;
+  text-align: center;
+  padding: 0 2.5%;
+  float: left;
+}
+
+.footer--content__box-line {
+  display: block;
+  width: 100%;
+  padding: 5px 0;
+  overflow: hidden;
+  color: #888;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.box--line__left {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.box--line__right {
+  text-align: center;
+  padding-top: 20px;
+}
+
+}
+
+/*==========================================================================
+===================== 768px - 1199px ========================================
+==========================================================================*/
+
+@media screen and (min-width: 768px) and (max-width: 959px) {
+
+.header--nav__list li {
+  padding: 15px 20px;
+  margin: 0 2%;
+  display: inline-block;
+}
+
+.header--support {
+  overflow: hidden;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+}
+
+
+.header--echo {
+  width: 100%;
+  height: 100%;
+  background: url('../image/headerEcho.jpg') no-repeat;
+  background-size: cover;
+}
+
+.header--echo__box {
+  position: relative;
+  top: 50px;
+  left: 20px;
+}
+
+.echo--about__box {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  left: 20px;
+  top: 50%;
+  width: auto;
+  color: #fff;
+}
+
+.echo--about__text {
+  max-width: 680px;
+  width: 90%;
+  letter-spacing: 1px;
+  line-height: 24px;
+}
+
+.column--box {
+  width: 33.3%;
+  float: left;
+  height: 300px;
+  margin: 0;
+  opacity: .2;
+  cursor: pointer;
+  overflow: hidden;
+  -moz-transition: all .1s ease-in;
+  -webkit-transition: all .1s ease-in;
+  transition: all .1s ease-in;
+}
+
+.footer--column {
+  width: 45%;
+  text-align: center;
+  padding: 0 2.5%;
+  float: left;
+}
+
+.footer--content__box-line {
+  display: block;
+  width: 100%;
+  padding: 5px 0;
+  overflow: hidden;
+  color: #888;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.box--line__left {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.box--line__right {
+  text-align: center;
+  padding-top: 20px;
+}
+
+}
+
+/*==========================================================================
+===================== 768px - 1199px ========================================
+==========================================================================*/
+
+@media screen and (min-width: 960px) and (max-width: 1199px) {
+
+.header--nav__list li {
+  padding: 15px 20px;
+  margin: 0 2%;
+  display: inline-block;
+}
+
+.header--support {
+  overflow: hidden;
+  position: absolute;
+  top: 90%;
+  left: 70%;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header--echo {
+  width: 100%;
+  height: 100%;
+  background: url('../image/headerEcho.jpg') no-repeat;
+  background-size: cover;
+}
+
+.header--echo__box {
+  position: relative;
+  top: 50px;
+  left: 20px;
+}
+
+.echo--about__box {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  left: 20px;
+  top: 50%;
+  width: auto;
+  color: #fff;
+}
+
+.echo--about__text {
+  max-width: 680px;
+  width: 90%;
+  letter-spacing: 1px;
+  line-height: 24px;
+}
+
+.column--box {
+  width: 33.3%;
+  float: left;
+  height: 300px;
+  margin: 0;
+  opacity: .2;
+  cursor: pointer;
+  overflow: hidden;
+  -moz-transition: all .1s ease-in;
+  -webkit-transition: all .1s ease-in;
+  transition: all .1s ease-in;
+}
+
+.footer--column {
+  width: 20%;
+  padding-right: 5%;
+  float: left;
+}
+
+.footer--content__box-line {
+  display: block;
+  width: 100%;
+  padding: 50px 0;
+  overflow: hidden;
+  color: #888;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.box--line__left {
+  float: left;
+}
+
+.box--line__right {
+  float: left;
+  position: relative;
+  left: 30%;
+  padding-top: 10px;
+}
+
+}
+
+/*==========================================================================
+===================== 1200px - 1440px ========================================
+==========================================================================*/
+
+@media screen and (min-width: 1200px) {
+
+.header--nav__list li {
+  padding: 15px 20px;
+  margin: 0 2%;
+  display: inline-block;
+}
+
+.header--support {
+  overflow: hidden;
+  position: absolute;
+  top: 90%;
+  left: 70%;
+}
+
+.header--echo {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background: url('../image/headerEcho.jpg') no-repeat;
+  background-size: cover;
+}
+
+.header--echo__box {
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.echo--about__box {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  left: 20px;
+  top: 50%;
+  width: auto;
+  color: #fff;
+}
+
+.column--box {
+  width: 33.2%;
+  height: 300px;
+  margin: 0;
+  float: left;
+  opacity: .2;
+  cursor: pointer;
+  overflow: hidden;
+  -moz-transition: all .1s ease-in;
+  -webkit-transition: all .1s ease-in;
+  transition: all .1s ease-in;
+}
+
+.footer--column {
+  width: 20%;
+  padding-right: 5%;
+  float: left;
+}
+
+.footer--content__box-line {
+  display: block;
+  width: 100%;
+  padding: 5px 20px;
+  overflow: hidden;
+  color: #888;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.box--line__left {
+  float: left;
+}
+
+.box--line__right {
+  float: left;
+  position: relative;
+  left: 40%;
+  padding-top: 10px;
+}
+
+}
+
+/*==========================================================================
+===================== 1441px - 1920px ========================================
+==========================================================================*/
+
+@media screen and (min-width: 1440px) {
+
+.column--box {
+  width: 33.2%;
+  height: 500px;
+  margin: 0;
+  float: left;
+  opacity: .2;
+  cursor: pointer;
+  overflow: hidden;
+  -moz-transition: all .1s ease-in;
+  -webkit-transition: all .1s ease-in;
+  transition: all .1s ease-in;
+}
+
+.box--line__right {
+  float: left;
+  position: relative;
+  left: 50%;
+  padding-top: 10px;
+}
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 1439px) {
+
+.header--support__title {
+  color: #f5f5f5;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.main--echo__text {
+  color: #fff;
+  font-size: 24px;
+  padding-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.echo--button__l-text {
+  font-size: 16px;
+}
+
+.echo--button__r-text {
+  font-size: 16px;
+}
+
+.product--button__r-text {
+  font-size: 16px;
+}
+
+.title--on__pic {
+  font-size: 24px;
+}
+
+.footer--column__title {
+  font-size: 24px;
+}
+
+.footer--column__list {
+  font-size: 14px;
+}
+
+.box--line__title {
+  font-size: 24px;
+}
+
+.slide--content__title {
+	font-size: 18px;
+}
+
+.slide--content__text {
+	font-size: 14px;
+}
+
+}
+
+@media screen and (min-width: 1440px) {
+
+.header--support__title {
+  color: #f5f5f5;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.header--nav__list li {
+  font-size: 20px;
+}
+
+.main--echo__text {
+  color: #fff;
+  font-size: 32px;
+  padding-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.echo--button__l-text {
+  font-size: 20px;
+}
+
+.echo--button__r-text {
+  font-size: 20px;
+}
+
+.echo--about__box > h1 {
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+
+.echo--about__text {
+  font-size: 18px;
+}
+
+.product--button__r-text {
+  font-size: 20px;
+}
+
+.title--on__pic {
+  font-size: 24px;
+}
+
+.footer--column__title {
+  font-size: 28px;
+}
+
+.footer--column__list {
+  font-size: 20px;
+}
+
+.box--line__title {
+  font-size: 24px;
+}
+
+.slide--content__title {
+	font-size: 24px;
+}
+
+.slide--content__text {
+	font-size: 20px;
+}
+
+}
