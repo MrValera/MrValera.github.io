@@ -12,7 +12,6 @@ html, body, div, h1, h2, h4, ul, li, a, p {
   margin: 0;
   list-style: none;
   text-decoration: none;
-  overflow-x: hidden;
 }
 
 body {
