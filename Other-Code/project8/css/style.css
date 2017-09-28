@@ -198,7 +198,10 @@ body {
   right: 0;
   bottom: 0;
   z-index: 1;
-  background-image: -webkit-linear-gradient(left,rgba(0,0,0,.8) 20%,rgba(0,0,0,0) 85%);
+  background: -ms-linear-gradient(left,rgba(0,0,0,.8) 20%,rgba(0,0,0,0) 85%);
+  background: -moz-linear-gradient(left,rgba(0,0,0,.8) 20%,rgba(0,0,0,0) 85%);
+  background: -webkit-linear-gradient(left,rgba(0,0,0,.8) 20%,rgba(0,0,0,0) 85%);
+  background: linear-gradient(left,rgba(0,0,0,.8) 20%,rgba(0,0,0,0) 85%);
 }
 
 .product--box {
