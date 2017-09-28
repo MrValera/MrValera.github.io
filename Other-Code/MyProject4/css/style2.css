@@ -42,25 +42,25 @@ header label:hover {
 
 .slide-one {
   overflow: hidden;
-  background: url('image/mountain.jpg') no-repeat center center;
+  background: url('..image/mountain.jpg') no-repeat center center;
   background-size: cover;
 }
 
 .slide-two {
   overflow: hidden;
-  background-image: url('image/baikal.jpg');
+  background-image: url('..image/baikal.jpg');
   background-size: cover;
 }
 
 .slide-three {
   overflow: hidden;
-	background-image: url('image/Lake.jpg');
+	background-image: url('..image/Lake.jpg');
   background-size: cover;
 }
 
 .slide-four {
   overflow: hidden;
-	background-image: url('image/Sahara.jpg');
+	background-image: url('..image/Sahara.jpg');
   background-size: cover;
 }
 
