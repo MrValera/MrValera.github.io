@@ -14,7 +14,10 @@
 #slideThird {
 	width: 100%;
 	height: 90%;
+	height: -moz-fill-available;
+	height: -ms-fill-available;
 	height: -webkit-fill-available;
+	height: fill-available;
 	background-size: cover;
 }
 
