@@ -1,6 +1,6 @@
 <span style="font-size: 32px"> My projects: </span>
 
-1) Microsoft - <a href="MrValera.github.io/Other-Code/MyProject/index.html"> link </a>
+1) Microsoft - <a href="https://mrvalera.github.io/Other-Code/MyProject/index.html"> link </a>
 2) Nature - <a href="https://mrvalera.github.io/Other-Code/MyProject4/Project.html"> link </a>
 3) URLAUBSGLÜCK - <a href="https://mrvalera.github.io/Other-Code/Project5/index2.html"> link </a>
 4) Calm - <a href="https://mrvalera.github.io/Other-Code/Project6/homePage.html"> link </a>
