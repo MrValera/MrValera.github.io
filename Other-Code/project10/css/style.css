@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/*=== HOVER EFFECT =====*/
+
+.header--nav__text:hover {
+	border-bottom: 3px solid #fff;
+	cursor: pointer;
+}
+
+#header--button:hover {
+	cursor: pointer;
+	color: #000;
+	background: #fff;
+	-webkit-transition: all .3s ease-in;
+	-moz-transition: all .3s ease-in;
+	-ms-transition: all .3s ease-in;
+	transition: all .3s ease-in;
+}
+
+.pink--button:hover {
+	color: #fff;
+	cursor: pointer;
+	background: #2e3b4e;
+	-webkit-transition: all .3s ease-in;
+	-moz-transition: all .3s ease-in;
+	-ms-transition: all .3s ease-in;
+	transition: all .3s ease-in;
+}
+
+.heading--pink__box a:hover {
+	color: #000;
+}
+
+.photograph--button:hover {
+	background: #fff;
+	color: #d54c63;
+	cursor: pointer;
+	-webkit-transition: all .3s ease-in;
+	-moz-transition: all .3s ease-in;
+	-ms-transition: all .3s ease-in;
+	transition: all .3s ease-in;
+}
+
+
+/*==== END HOVER EFFECT =====*/
+
+/*==== MAIN CSS =====*/
+html, body, div, h1, h2, ul, li, p, span {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #2e3b4e;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#page-preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    z-index: 100500;
+}
+
+#page-preloader .spinner {
+    width: 48px;
+    height: 36px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: url(../img/logo_pex.png) no-repeat 50% 50%;
+    margin: -16px 0 0 -16px;
+}
+
+.header--bg::before {
+	content: ' ';
+	background: rgba(255, 255, 255, 0.03);
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	z-index: 1;
+}
+
+.header--bg {
+	width: 100%;
+	height: 800px;
+	background: url('../img/main_bg.jpg') no-repeat;
+	background-size: cover;
+}
+
+#header--logo {
+	width: 48px;
+	height: 32px;
+	position: relative;
+	top: 11px;
+	display: inline-block;
+}
+
+.header--nav {
+	width: 100%;
+	height: 100px;
+	padding: 25px 0;
+	position: relative;
+	box-sizing: border-box;
+	z-index: 2;
+}
+
+.header--text {
+	font-size: 13px;
+	font-style: italic;
+	font-weight: 100;
+	display: inline-block;
+	color: #fff;
+}
+
+.header--content__title {
+	color: #fff;
+	font-weight: 100;
+	line-height: 48px;
+	letter-spacing: 2px;
+	margin-bottom: 40px;
+}
+
+#header--button {
+	color: #fff;
+	border: 0;
+	letter-spacing: 1px;
+	font-weight: 700;
+	background: #8824cd;
+	padding: 15px 30px;
+	border-radius: 20px;
+	text-decoration: none;
+	-webkit-transition: all .3s ease-in;
+	-moz-transition: all .3s ease-in;
+	-ms-transition: all .3s ease-in;
+	transition: all .3s ease-in;
+}
+
+.header--content__text {
+	color: #fff;
+	font-size: 8px;
+	padding: 0 20px;
+}
+
+.about--column__title {
+	font-size: 18px;
+	font-weight: 700;
+	padding: 20px 0;
+}
+
+.about--column__text {
+	letter-spacing: .8px;
+	line-height: 24px;
+	text-align: justify;
+}
+
+.pink {
+	width: 100%;
+	height: 500px;
+	background: url('../img/pine.jpg') no-repeat 0 center;
+	background-size: cover;
+	position: relative;
+}
+
+.pink::before{
+	content: ' ';
+	width: 100%;
+	height: inherit;
+	background: rgba(195, 82, 103, 0.8);
+	position: absolute;
+	z-index: 1;
+}
+
+.pink--title,
+.pink--text,
+.pink--button {
+	margin: 15px 0;
+}
+
+.pink--title,
+.pink--text {
+	color: #fff;
+}
+
+.pink--button {
+	color: #d54c63;
+	font-weight: 700;
+	background: #fff;
+	padding: 20px 50px;
+	border: 0;
+	border-radius: 50px;
+	-webkit-transition: all .3s ease-in;
+	-moz-transition: all .3s ease-in;
+	-ms-transition: all .3s ease-in;
+	transition: all .3s ease-in;
+}
+
+.heading--pink__box h1,
+.heading--pink__box p,
+.heading--pink__box a {
+	padding: 10px 0;
+}
+
+.heading--pink__box a {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.heading--box__title {
+	font-weight: 700;
+	font-size: 16px;
+	padding: 10px 0;
+	letter-spacing: .8px;
+}
+
+.heading--box__text {
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: .8px;
+	padding: 10px 0;
+}
+
+.mount--violet {
+	height: inherit;
+	background: rgba(92, 47, 108, 0.8);
+}
+
+.photograph {
+	width: 100%;
+	height: 670px;
+	overflow: hidden;
+	background: url(../img/eat.jpg) no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.photograph::before {
+	content: '';
+	width: 100%;
+	height: 670px;
+	position: absolute;
+    background: -ms-linear-gradient(rgba(0, 0, 0, 0) 70%,rgba(0, 0, 0, .8) 95%);
+    background: -moz-linear-gradient(rgba(0, 0, 0, 0) 70%,rgba(0, 0, 0, .8) 95%);
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0) 70%,rgba(0, 0, 0, .8) 95%);
+    background: linear-gradient(rgba(0, 0, 0, 0) 70%,rgba(0, 0, 0, .8) 95%);
+    z-index: 1;
+}
+
+.photograph--box {
+	max-width: 600px;
+	width: 100%;
+	float: left;
+	color: #fff;
+	position: relative;
+	top: 50%;
+	z-index: 2;
+}
+
+.photograph--button {
+	border: 2px solid #fff;
+	color: #fff;
+	padding: 15px 30px;
+	border-radius: 50px;
+	background-color: transparent;
+	margin: 10px 0;
+	font-weight: 700;
+	-webkit-transition: all .3s ease-in;
+	-moz-transition: all .3s ease-in;
+	-ms-transition: all .3s ease-in;
+	transition: all .3s ease-in;
+}
+
+.photograph--title {
+	font-size: 28px;
+	margin: 20px 0;
+}
+
+#photograph--img {
+	width: 48px;
+	height: 48px;
+	background: url('../img/photography.jpg') center center;
+	background-size: cover;
+	border-radius: 50%;
+	float: left;
+	margin: 10px;
+}
+
+.photograph--text {
+	margin: 20px 0;
+	position: relative;
+	top: 23px;
+	left: 10px;
+}
+
+/*==== END MAIN CSS =====*/
