@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> PEX </title>
+	<link rel="shortcut icon" href="img/logo_pex.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/min.style.css">
+	<script src="js/jquery-1.9.1.js"></script>
+	<script src="js/stellar.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$.stellar({
+			  // Set scrolling to be in either one or both directions
+			  horizontalScrolling: true,
+			  verticalScrolling: true,
+
+			  // Set the global alignment offsets
+			  horizontalOffset: 0,
+			  verticalOffset: -40,
+
+			  // Refreshes parallax content on window load and resize
+			  responsive: false,
+
+			  // Select which property is used to calculate scroll.
+			  // Choose 'scroll', 'position', 'margin' or 'transform',
+			  // or write your own 'scrollProperty' plugin.
+			  scrollProperty: 'scroll',
+
+			  // Select which property is used to position elements.
+			  // Choose between 'position' or 'transform',
+			  // or write your own 'positionProperty' plugin.
+			  positionProperty: 'position',
+
+			  // Enable or disable the two types of parallax
+			  parallaxBackgrounds: true,
+			  parallaxElements: true,
+
+			  // Hide parallax elements that move outside the viewport
+			  hideDistantElements: true,
+
+			  // Customise how elements are shown and hidden
+			  hideElement: function($elem) { $elem.hide(); },
+			  showElement: function($elem) { $elem.show(); }
+			});
+		});
+	</script>
+</head>
+<body style="zoom: 1;">
+<div id="page-preloader">
+	<span class="spinner"></span>
+</div>
+	<header class="header--bg" data-stellar-background-ratio="0.5">
+		<div class="wrapper">
+			<div class="header--nav">
+				<div class="header--nav__l">
+					<img id="header--logo" src="img/logo_pex.png">
+					<h1 class="header--text"> Photoshop Website template </h1>
+				</div>
+				<div class="header--nav__r view-source">
+					<a href="#" id="button"> Menu </a>
+					<div class="hide">
+						<nav class="header--nav__text">About</nav>
+						<nav class="header--nav__text">How It Works</nav>
+						<nav class="header--nav__text">Services</nav>
+						<nav class="header--nav__text">FAQ</nav>
+						<nav class="header--nav__text">Contact</nav>
+					</div>
+				</div>
+			</div>
+			<div class="header--content">
+				<h1 class="header--content__title">Design your eyeballs will thank you for</h1>
+				<button id="header--button" href="#">Get Started Today</button><br>
+				<small class="header--content__text"> lorem ipsum dolor sit amet, consectetur </small>
+			</div>
+		</div>
+	</header>
+	<section class="about" data-stellar-background-ratio="0.5">
+		<div class="wrapper wrapper-960">
+			<div class="about--column">
+				<h1 class="about--column__title">A FANTASTIC HEADING</h1>
+				<p class="about--column__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+			<div class="about--column">
+				<h1 class="about--column__title">GOOOD DAY BLOKES</h1>
+				<p class="about--column__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+			<div class="about--column">
+				<h1 class="about--column__title">BLAZ ROBAR FOR PRESIDENT</h1>
+				<p class="about--column__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+			<div class="about--column">
+				<h1 class="about--column__title">VOTE FOR ROBAR</h1>
+				<p class="about--column__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+		</div>
+	</section>
+	<section class="pink" data-stellar-background-ratio="0.5">
+		<div class="wrapper">
+			<div class="pink--box">
+				<h2 class="pink--title">Wicked & whack, bang bang boo!</h2>
+				<p class="pink--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<button class="pink--button"> Get Started Today</button>
+			</div>
+		</div>
+	</section>
+	<section class="heading" data-stellar-background-ratio="0.5">
+		<div class="wrapper">
+			<div class="heading--image_bg">
+			</div>
+			<div class="heading--box">
+				<h1 class="heading--box__title">A HEADING IS WHAT YOU NEED HERE</h1>
+				<p class="heading--box__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				<p class="heading--box__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
+		</div>
+	</section>
+	<section class="heading mount-bg" data-stellar-background-ratio="0.5">
+		<div class="mount--violet">
+			<div class="wrapper-960">
+				<div class="mount--box">
+					<h2 class="pink--title">Experience the rush today</h2>
+					<p class="pink--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<button id="header--button" href="#">Get Started Today</button><br>
+					<small class="header--content__text"> lorem ipsum dolor sit amet, consectetur </small>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="photograph" data-stellar-background-ratio="0.5">
+		<div class="wrapper">
+			<div class="photograph--box">
+				<button class="photograph--button">Photography</button>
+				<h1 class="photograph--title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+				<div id="photograph--img"></div>
+				<span class="photograph--text"> Blaz Robar, god like web designer</span>
+			</div>
+		</div>
+	</section>
+	<section class="heading" data-stellar-background-ratio="0.5">
+		<div class="wrapper">
+			<div class="heading--image_bg-r">
+			</div>
+			<div class="heading--box heading--box-r">
+				<h1 class="heading--box__title">A HEADING IS WHAT YOU NEED HERE</h1>
+				<p class="heading--box__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				<p class="heading--box__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
+		</div>
+	</section>
+	<section class="heading heading--pink" data-stellar-background-ratio="0.5">
+		<div class="wrapper">
+			<div class="heading--pink__box">
+				<h1>GET IN TOUCH</h1>
+				<p>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<a>help@yomuma.com</a>
+			</div>
+		</div>
+	</section>
+	<script src="js/script.js"></script>
+</body>
+</html>
