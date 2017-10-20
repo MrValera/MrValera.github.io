@@ -9,3 +9,4 @@
 7) Helvetica v1.0 ( Game ) - <a href="https://mrvalera.github.io/Other-Code/ProjectGame/index.html"> link </a>
 8) E C H O - <a href="https://mrvalera.github.io/Other-Code/project8/index.html"> link </a>
 9) FOTO - <a href="https://mrvalera.github.io/Other-Code/project9/index.html"> link </a>
+10) PEX - <a href="https://mrvalera.github.io/Other-Code/project10/index.html"> link </a>
