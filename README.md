@@ -10,3 +10,5 @@
 8) E C H O - <a href="https://mrvalera.github.io/Other-Code/project8/index.html"> link </a>
 9) FOTO - <a href="https://mrvalera.github.io/Other-Code/project9/index.html"> link </a>
 10) PEX - <a href="https://mrvalera.github.io/Other-Code/project10/index.html"> link </a>
+11) XDEV - <a href="http://xdev.su"> link </a>
+12) NewPay - <a href="http://var.newman.su"> link </a>
