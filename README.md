@@ -1,4 +1,4 @@
-<span style="font-size: 32px"> My projects: </span>
+<h1 style="font-size: 32px"> My projects: </h1>
 
 1) Microsoft - <a href="https://mrvalera.github.io/Other-Code/MyProject/index.html"> link </a>
 2) Nature - <a href="https://mrvalera.github.io/Other-Code/MyProject4/Project.html"> link </a>
