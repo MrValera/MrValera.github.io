@@ -1,6 +1,6 @@
 <h1 style="font-size: 32px"> My projects: </h1>
 
-<p>1) Microsoft - <a href="https://mrvalera.github.io/Other-Code/MyProject/index.html"> link </a></p>
+<p style="border: 1px solid #000; padding-right: 5px;">1) Microsoft - <a href="https://mrvalera.github.io/Other-Code/MyProject/index.html"> link </a></p>
 <p>2) Nature - <a href="https://mrvalera.github.io/Other-Code/MyProject4/Project.html"> link </a></p>
 <p>3) URLAUBSGLÜCK - <a href="https://mrvalera.github.io/Other-Code/Project5/index2.html"> link </a></p>
 <p>4) Calm - <a href="https://mrvalera.github.io/Other-Code/Project6/homePage.html"> link </a></p>
