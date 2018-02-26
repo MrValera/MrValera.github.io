@@ -4,7 +4,7 @@
 > <p>2) Nature [Responsive version] - <a href="https://mrvalera.github.io/Other-Code/MyProject4/Project.html"> link </a></p>
 > <p>3) URLAUBSGLÜCK [Responsive version] - <a href="https://mrvalera.github.io/Other-Code/Project5/index2.html"> link </a></p>
 > <p>4) Calm [Responsive version] - <a href="https://mrvalera.github.io/Other-Code/Project6/homePage.html"> link </a></p>
->> <p>4.1) Calm Blog [Responsive version] - <a href="https://mrvalera.github.io/Other-Code/Project6/blogPage.html"> link </a></p>
+>>> <p>4.1) Calm Blog [Responsive version] - <a href="https://mrvalera.github.io/Other-Code/Project6/blogPage.html"> link </a></p>
 > <p>6) Space [Responsive version] - <a href="https://mrvalera.github.io/Other-Code/Project%207/index.html"> link </a></p>
 > <p>7) Helvetica v1.0 [ Game ] - <a href="https://mrvalera.github.io/Other-Code/ProjectGame/index.html"> link </a></p>
 > <p>8) E C H O [Responsive version] - <a href="https://mrvalera.github.io/Other-Code/project8/index.html"> link </a></p>
