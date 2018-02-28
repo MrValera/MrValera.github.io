@@ -13,7 +13,7 @@
 #slideTwo,
 #slideThird {
 	width: 100%;
-	height: 90%;
+	height: fill-available;
 	height: -moz-fill-available;
 	height: -ms-fill-available;
 	height: -webkit-fill-available;
