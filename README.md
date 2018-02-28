@@ -11,5 +11,5 @@
 > <p>8) FOTO [Desktop version] - <a href="https://mrvalera.github.io/Other-Code/project9/index.html"> link </a></p>
 > <p>9)PEX [Responsive version] - <a href="https://mrvalera.github.io/Other-Code/project10/index.html"> link </a></p>
 > <p>10 XDEV [Responsive version] - <a href="http://xdev.su"> link </a></p>
-> <p>11 NewPay [Responsive version] - <a href="http://var.newman.su"> link </a></p>
+> <p>11 NewPay [Responsive version] - <a href="https://grid-system.000webhostapp.com"> link </a></p>
 > <p>12 TakeApp [Desktop version] - <a href="https://mrvalera.github.io/Other-Code/project11/index.html"> link </a></p>
