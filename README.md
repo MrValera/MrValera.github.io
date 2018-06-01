@@ -11,3 +11,4 @@
 > <p>9) XDEV [Responsive version] - <a href="http://xdev.su"> link </a></p>
 > <p>10) NewPay [Responsive version] - <a href="https://grid-system.000webhostapp.com"> link </a></p>
 > <p>11) TakeApp [Desktop version] - <a href="https://mrvalera.github.io/Other-Code/project11/index.html"> link </a></p>
+> <p>12) SveTouch [Responsive version] - <a href="http://svetouch.net"> link </a></p>
