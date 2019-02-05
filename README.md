@@ -11,3 +11,4 @@
 > <p>9) XDEV [Responsive version] - <a href="http://xdev.su"> link </a></p>
 > <p>10) TakeApp [Desktop version] - <a href="https://mrvalera.github.io/Other-Code/project11/index.html"> link </a></p>
 > <p>11) SveTouch [Responsive version] - <a href="http://svetouch.net"> link </a></p>
+> <p>12) IOC [Desktop version] - <a href="http://www2.ioc.nau.edu.ua"> link </a></p>
